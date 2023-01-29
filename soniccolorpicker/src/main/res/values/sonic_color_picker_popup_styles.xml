@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SonicColorPickerPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/sonic_color_picker_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/sonic_color_picker_popup_hide</item>
+    </style>
+</resources>
