@@ -21,7 +21,7 @@ repositories {
 Add SonicColorPicker dependencies in App level build.gradle.
 
 ```
-  implementation 'com.github.orbitalsonic:SonicColorPicker:1.2'
+  implementation 'com.github.orbitalsonic:SonicColorPicker:1.2.4'
  
  ```
  
