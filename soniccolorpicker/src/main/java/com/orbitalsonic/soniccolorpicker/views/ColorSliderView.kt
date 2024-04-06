@@ -16,7 +16,13 @@ import com.orbitalsonic.soniccolorpicker.interfaces.ColorObservable
 import com.orbitalsonic.soniccolorpicker.interfaces.ColorObserver
 import com.orbitalsonic.soniccolorpicker.interfaces.Updatable
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 abstract class ColorSliderView @JvmOverloads constructor(
     context: Context?,
     attrs: AttributeSet? = null,

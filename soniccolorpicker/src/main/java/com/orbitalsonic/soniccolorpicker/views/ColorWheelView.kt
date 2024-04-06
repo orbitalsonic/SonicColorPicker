@@ -20,7 +20,13 @@ import com.orbitalsonic.soniccolorpicker.interfaces.ColorObserver
 import com.orbitalsonic.soniccolorpicker.interfaces.Updatable
 import kotlin.math.min
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 class ColorWheelView @JvmOverloads constructor(
     context: Context?,
     attrs: AttributeSet? = null,

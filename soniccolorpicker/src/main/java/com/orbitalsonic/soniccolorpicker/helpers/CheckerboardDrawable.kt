@@ -3,7 +3,13 @@ package com.orbitalsonic.soniccolorpicker.helpers
 import android.graphics.*
 import android.graphics.drawable.Drawable
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 class CheckerboardDrawable private constructor(builder: Builder) :
     Drawable() {
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)

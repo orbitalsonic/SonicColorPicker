@@ -2,6 +2,9 @@
 # SonicColorPicker
 SonicColorPicker library allows you to display a ColorPicker for Android. Pick a color using color wheel and slider (HSV & alpha)
 
+## Screenshots
+![alt text](https://github.com/orbitalsonic/SonicColorPicker/blob/master/Screenshots/Screenshot.png?raw=true)
+
 ## Gradle Files
 
 Add maven repository in project level build.gradle or in latest project setting.gradle file
@@ -39,10 +42,8 @@ Add SonicColorPicker dependencies in App level build.gradle.
             .onlyUpdateOnTouchEventUp(true)
             .build()
             .show(object : ColorPickerPopup.ColorPickerObserver() {
-                override fun onColorPicked(color: Int) {
-                    
-                }
-
+                override fun onColorPicked(color: Int) {}
+                override fun onCancel() {}
                 override fun onColor(color: Int, fromUser: Boolean, shouldPropagate: Boolean) {
                     super.onColor(color, fromUser, shouldPropagate)
                 }
@@ -97,8 +98,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
-## Screenshots
-![alt text](https://github.com/orbitalsonic/SonicColorPicker/blob/master/Screenshots/Screenshot.png?raw=true)
 

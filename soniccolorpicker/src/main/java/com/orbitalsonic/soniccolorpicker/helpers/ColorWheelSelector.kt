@@ -10,7 +10,13 @@ import android.util.AttributeSet
 import android.view.View
 import com.orbitalsonic.soniccolorpicker.helpers.Constants.SELECTOR_RADIUS_DP
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 class ColorWheelSelector @JvmOverloads constructor(
     context: Context?,
     attrs: AttributeSet? = null,

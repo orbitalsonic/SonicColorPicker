@@ -15,7 +15,13 @@ import com.orbitalsonic.soniccolorpicker.interfaces.ColorObserver
 import com.orbitalsonic.soniccolorpicker.views.ColorPickerView
 import java.util.*
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 class ColorPickerPopup private constructor(builder: Builder) {
     private val context: Context
     private var popupWindow: PopupWindow? = null
@@ -62,7 +68,10 @@ class ColorPickerPopup private constructor(builder: Builder) {
         colorPickerView.subscribe(observer)
         val cancel = layout.findViewById<TextView>(R.id.cancel)
         cancel.text = cancelTitle
-        cancel.setOnClickListener { popupWindow?.dismiss() }
+        cancel.setOnClickListener {
+            popupWindow?.dismiss()
+            observer.onCancel()
+        }
         val ok = layout.findViewById<TextView>(R.id.ok)
         ok.text = okTitle
         ok.setOnClickListener {
@@ -168,5 +177,6 @@ class ColorPickerPopup private constructor(builder: Builder) {
     abstract class ColorPickerObserver : ColorObserver {
         abstract fun onColorPicked(color: Int)
         override fun onColor(color: Int, fromUser: Boolean, shouldPropagate: Boolean) {}
+        abstract fun onCancel()
     }
 }

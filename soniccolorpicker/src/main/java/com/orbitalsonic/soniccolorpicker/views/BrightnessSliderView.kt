@@ -7,7 +7,13 @@ import android.graphics.Paint
 import android.graphics.Shader
 import android.util.AttributeSet
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 class BrightnessSliderView : ColorSliderView {
     constructor(context: Context?) : super(context) {}
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs) {}

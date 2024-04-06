@@ -6,7 +6,13 @@ import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import com.orbitalsonic.soniccolorpicker.helpers.CheckerboardDrawable
 
-
+/**
+ * @Author: Muhammad Yaqoob
+ * @Date: 06,April,2024.
+ * @Accounts
+ *      -> https://github.com/orbitalsonic
+ *      -> https://www.linkedin.com/in/myaqoob7
+ */
 class AlphaSliderView : ColorSliderView {
     private var backgroundBitmap: Bitmap? = null
     private var backgroundCanvas: Canvas? = null
