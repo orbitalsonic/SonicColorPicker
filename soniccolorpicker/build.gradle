@@ -42,7 +42,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.orbitalsonic.soniccolorpicker'
             artifactId = 'soniccolorpicker'
-            version = '1.0.4'
+            version = '1.2.4'
 
             afterEvaluate {
                 from components.release
